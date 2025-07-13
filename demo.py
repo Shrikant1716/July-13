@@ -13,3 +13,10 @@ try:
 except:
     print('Wrong List')
 
+from collections import Counter
+
+num = ['5-star', '2-star', '3-star', '1-star', '5-star',
+       '2-star', '3-star', '1-star', '5-star', '2-Star']
+
+asdf = Counter(num)
+print(asdf)
